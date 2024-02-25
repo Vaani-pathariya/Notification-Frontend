@@ -1,9 +1,10 @@
-
+import ExcelReader from "./Excel";
 
 function App() {
   return (
     <div className="App">
-      hello
+      <h1>Excel File Reader</h1>
+      <ExcelReader />
     </div>
   );
 }
